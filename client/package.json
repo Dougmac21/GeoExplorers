@@ -6,12 +6,9 @@
     "serve": "vue-cli-service serve",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
-
     "dev": "node build/dev-server.js",
-    "build": "rimraf dist && mkdirp dist && ncp static dist/static && cross-env NODE_ENV=production webpack — progress — hide-modules — config build/webpack.prod.conf.js",
-    "postinstall": "npm run build",
+    "build": "vue-cli-service build",
     "start": "node server.js"
-
   },
   "dependencies": {
     "@svg-maps/world": "^1.0.1",
@@ -31,5 +28,3 @@
     "vue-template-compiler": "^2.6.11"
   }
 }
-
-
