@@ -1,5 +1,5 @@
 import App from "@/App.vue";
-import { countriesData } from './countries.js';
+import { countriesData } from './countries.js.js';
 import { shallowMount } from '@vue/test-utils';
 import fetch from 'fetch-mock'
 
